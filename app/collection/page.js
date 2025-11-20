@@ -2,7 +2,7 @@
 import { useEffect } from 'react'
 import Header from '../../components/Header'
 
-const folder = "/assets/Shiina/Clean Background/"
+const folder = "/assets/Shiina/Clean_Background/"
 
 const imageList = [
   // Volume 1
