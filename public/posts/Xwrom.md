@@ -31,7 +31,7 @@ Secondly, It creates a HKEY that would set schedule and automatically execute up
 Lastly, that threat program call Socket API to connect to supicious IP and send all the hardware and software information to threat actor.
 ## Analyst
 
-![Initial Analysis](./assets/Xwrom/1.png)
+![Initial Analysis](../../assets/Xwrom/1.png)
 
 
 Firstly, this program was going to decrypt all the encrypted data and we gained plenty of information that the malware might do, I will make a bief list.
