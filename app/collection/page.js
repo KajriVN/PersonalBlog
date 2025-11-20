@@ -2,26 +2,26 @@
 import { useEffect } from 'react'
 import Header from '../../components/Header'
 
-const folder = "./assets/Shiina/Clean Background/"
+const folder = "/assets/Shiina/Clean Background/"
 
 const imageList = [
   // Volume 1
-  { file: "1.07_ Iviera—Clean.png", name: "Chapter 1.07 - Iviera" },
-  { file: "1.09_ Iviera—Clean.png", name: "Chapter 1.09 - Iviera" },
-  { file: "1.11_ Iviera—Clean.png", name: "Chapter 1.11 - Iviera" },
-  { file: "1.11_ Iviera—Alter—Clean .png", name: "Chapter 1.11 Alternate - Iviera" },
+  { file: "1.07_ Iviera_Clean.png", name: "Chapter 1.07 - Iviera" },
+  { file: "1.09_ Iviera_Clean.png", name: "Chapter 1.09 - Iviera" },
+  { file: "1.11_ Iviera_Clean.png", name: "Chapter 1.11 - Iviera" },
+  { file: "1.11_ Iviera_Alter_Clean .png", name: "Chapter 1.11 Alternate - Iviera" },
 
   // Volume 2
-  { file: "2.05_ Iviera—Clean.png", name: "Chapter 2.05 - Iviera" },
-  { file: "2.08_ Iviera—Clean.png", name: "Chapter 2.08 - Iviera" },
-  { file: "2.08_ Iviera—Alter—Clean.png", name: "Chapter 2.08 Alternate - Iviera" },
+  { file: "2.05_ Iviera_Clean.png", name: "Chapter 2.05 - Iviera" },
+  { file: "2.08_ Iviera_Clean.png", name: "Chapter 2.08 - Iviera" },
+  { file: "2.08_ Iviera_Alter_Clean.png", name: "Chapter 2.08 Alternate - Iviera" },
   { file: "2.09_ Iviera.png", name: "Chapter 2.09 - Iviera" },
-  { file: "2.11_ Iviera—Clean.png", name: "Chapter 2.11 - Iviera" },
-  { file: "2.14_ Iviera—Clean.png", name: "Chapter 2.14 - Iviera" },
+  { file: "2.11_ Iviera_Clean.png", name: "Chapter 2.11 - Iviera" },
+  { file: "2.14_ Iviera_Clean.png", name: "Chapter 2.14 - Iviera" },
 
   // Volume 3
-  { file: "3.08_ Iviera—Clean.png", name: "Chapter 3.08 - Iviera" },
-  { file: "3.11_ Iviera—Clean.png", name: "Chapter 3.11 - Iviera" },
+  { file: "3.08_ Iviera_Clean.png", name: "Chapter 3.08 - Iviera" },
+  { file: "3.11_ Iviera_Clean.png", name: "Chapter 3.11 - Iviera" },
 
   // Volume 4
   { file: "4.06_ Iviera—Clean.png", name: "Chapter 4.06 - Iviera" },
@@ -120,7 +120,7 @@ export default function CollectionPage() {
       <div className="collection-background"></div>
       
       <video autoPlay muted loop playsInline className="sakura-video">
-        <source src="./assets/Falling cherry blossom petals..mp4" type="video/mp4" />
+        <source src="/assets/Falling cherry blossom petals..mp4" type="video/mp4" />
       </video>
 
       <Header active="collection" />
@@ -128,7 +128,7 @@ export default function CollectionPage() {
       <main>
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
           <img 
-            src="./assets/The_Angel_Next_Door_Spoils_Me_Rotten_Logo.webp" 
+            src="/assets/The_Angel_Next_Door_Spoils_Me_Rotten_Logo.webp" 
             alt="Shiina Mahiru Gallery" 
             className="logo-image"
           />
