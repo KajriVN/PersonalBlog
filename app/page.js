@@ -57,7 +57,24 @@ export default function HomePage() {
       <Header active="home" />
 
       <section className="hero">
-        <video autoPlay muted loop playsInline className="hero-video">
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline 
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            minWidth: '100%',
+            minHeight: '100%',
+            width: 'auto',
+            height: 'auto',
+            objectFit: 'cover',
+            zIndex: 0
+          }}
+        >
           <source src="./assets/Mahiru_live_smaller.mp4" type="video/mp4" />
         </video>
 
