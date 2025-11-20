@@ -58,7 +58,7 @@ export default function HomePage() {
 
       <section className="hero">
         <video autoPlay muted loop playsInline className="bg-video">
-          <source src="./assets/Mahiru_live_smaller.mp4" type="video/mp4" />
+          <source src="/assets/Mahiru_live_smaller.mp4" type="video/mp4" />
         </video>
 
         <div className="hero-overlay">
@@ -73,7 +73,7 @@ export default function HomePage() {
         <h3>About Me</h3>
         <div className="about-flex">
           <video className="about-video" autoPlay muted loop playsInline>
-            <source src="./assets/Image_Animation.mp4" type="video/mp4" />
+            <source src="/assets/Image_Animation.mp4" type="video/mp4" />
           </video>
           <div>
             <p>

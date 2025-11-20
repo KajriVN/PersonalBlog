@@ -2,7 +2,7 @@
 import { useEffect } from 'react'
 import Header from '../../components/Header'
 
-const folder = "./assets/Shiina/Clean Background/"
+const folder = "/assets/Shiina/Clean Background/"
 
 const imageList = [
   // Volume 1
@@ -120,7 +120,7 @@ export default function CollectionPage() {
       <div className="collection-background"></div>
       
       <video autoPlay muted loop playsInline className="sakura-video">
-        <source src="./assets/Falling cherry blossom petals..mp4" type="video/mp4" />
+        <source src="/assets/Falling cherry blossom petals..mp4" type="video/mp4" />
       </video>
 
       <Header active="collection" />
@@ -128,7 +128,7 @@ export default function CollectionPage() {
       <main>
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
           <img 
-            src="./assets/The_Angel_Next_Door_Spoils_Me_Rotten_Logo.webp" 
+            src="/assets/The_Angel_Next_Door_Spoils_Me_Rotten_Logo.webp" 
             alt="Shiina Mahiru Gallery" 
             className="logo-image"
           />
