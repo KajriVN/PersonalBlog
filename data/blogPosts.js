@@ -7,7 +7,7 @@ export const blogPosts = [
     excerpt: "PE02 - Find out the real path and target, Reversing the Knight's tour 6x6",
     tags: ["CTF Writeups"],
     category: "CTF Writeups",
-    thumbnail: "/assets/V7.png",
+    thumbnail: "./assets/V7.png",
     filename: "PE02"
   },
   {
@@ -18,7 +18,7 @@ export const blogPosts = [
     excerpt: "A comprehensive analysis of a multi-stage APT attack involving phishing, PowerShell execution, and data exfiltration...",
     tags: ["APT Analysis", "Incident Response", "Malware Analysis"],
     category: "Security Research",
-    thumbnail: "/assets/Shiina/Clean Background/V8.5 - 09.png",
+    thumbnail: "./assets/Shiina/Clean Background/V8.5 - 09.png",
     filename: "revengehotels-apt"
   },
   {
@@ -29,7 +29,7 @@ export const blogPosts = [
     excerpt: "XWorm is a versatile Remote Access Trojan (RAT). It is also often sold as a Malware-as-a-Service (MaaS) on underground forums.",
     tags: ["Reverse Engineering", "Malware Analysis"],
     category: "Security Research",
-    thumbnail: "/assets/Shiina/Clean Background/4.12_ Iviera—Clean.png",
+    thumbnail: "./assets/Shiina/Clean Background/4.12_ Iviera—Clean.png",
     filename: "Xwrom"
   },
   // Add more blog posts here

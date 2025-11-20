@@ -13,7 +13,7 @@ export default function Sidebar({ activeCategory, onCategoryClick, totalPosts })
     <aside className="sidebar-left">
       <div className="profile-card">
         <Image 
-          src="/assets/V9_ Insert 2_darker.png" 
+          src="./assets/V9_ Insert 2_darker.png" 
           alt="Katjri" 
           width={100}
           height={100}
