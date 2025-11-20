@@ -57,8 +57,8 @@ export default function HomePage() {
       <Header active="home" />
 
       <section className="hero">
-        <video autoPlay muted loop playsInline className="bg-video">
-          <source src="/assets/Mahiru_live_smaller.mp4" type="video/mp4" />
+        <video autoPlay muted loop playsInline className="hero-video">
+          <source src="./assets/Mahiru_live_smaller.mp4" type="video/mp4" />
         </video>
 
         <div className="hero-overlay">
