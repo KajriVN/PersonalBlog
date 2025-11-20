@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { marked } from 'marked'
 import hljs from 'highlight.js'
 import 'highlight.js/styles/atom-one-dark.css'
-import { blogPosts } from '@/data/blogPosts'
-import Header from '@/components/Header'
+import { blogPosts } from '../../../data/blogPosts'
+import Header from '../../../components/Header'
 import fs from 'fs';
 import path from 'path';
 
