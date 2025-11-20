@@ -138,7 +138,7 @@ export default function CollectionPage() {
           {imageList.map((item, index) => (
             <div key={index} className="image-card" style={{ animationDelay: `${Math.min(index * 0.1, 0.6)}s` }}>
               <img 
-                src={folder + encodeURIComponent(item.file)} 
+                src={folder + item.file} 
                 alt={item.name}
                 loading="lazy"
               />
